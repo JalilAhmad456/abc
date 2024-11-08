@@ -12,7 +12,7 @@ function DataSafety() {
         Your data is safe with us. We ensure the highest standards of data
         privacy and security.
       </p>
-      <div className="border-[1px] border-black rounded-md px-4 py-2 ml-2 text-[12px]">
+      <div className="border-[1px] border-black rounded-md px-4 py-2 ml-2 mt-2 text-[12px]">
         <div className="flex gap-4 px-4">
           <span className="text-[10px]">
             <IoShareSocial />
