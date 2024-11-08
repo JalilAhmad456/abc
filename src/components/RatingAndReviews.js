@@ -51,15 +51,15 @@ const reviews = [
 function RatingAndReviews() {
   return (
     <div className="max-w-2xl mx-auto text-left p-4">
-      <h2 className="text-xl font-medium mb-2">Rating & Reviews</h2>
-      <p className="pl-2 text-xs">Ratings and reviews are verified</p>
+      <h2 className="text-[15px] font-medium mb-2">Rating & Reviews</h2>
+      <p className="pl-2 text-[10px]">Ratings and reviews are verified</p>
       <div className="flex items-center justify-between p-2">
         <div className="">
-          <h4 className="text-3xl">4.1</h4>
-          <p className="text-green-700">★★★★★</p>
-          <p>3.07L reviews</p>
+          <h4 className="text-[40px]">4.1</h4>
+          <p className="text-green-700 ext-[10px]">★★★★★</p>
+          <p className="ext-[10px]">3.07L reviews</p>
         </div>
-        <div className="w-[70%] flex flex-col">
+        <div className="w-[70%] flex flex-col text-sm">
           <div className="w-full flex justify-between items-center">
             5
             <div className="h-[10px] w-[90%] rounded-full overflow-hidden bg-slate-300">
@@ -97,14 +97,16 @@ function RatingAndReviews() {
         {reviews.map((review, index) => (
           <div>
             <div className="flex">
-              <span className="font-medium">{review.username}</span>
+              <span className="font-medium text-[12px]">{review.username}</span>
             </div>
-            <div className="pl-4">
-              <span className="text-green-700">{renderStars(review.rating)}</span>
+            <div className="pl-4 text-[10px]">
+              <span className="text-green-700 text-[10px]">
+                {renderStars(review.rating)}
+              </span>
               {review.date}
             </div>
             <div className="pl-4">
-              <p className="text-sm">{review.review}</p>
+              <p className="text-[10px]">{review.review}</p>
             </div>
           </div>
         ))}
