@@ -57,7 +57,7 @@ function RatingAndReviews() {
         <div className="">
           <h4 className="text-[40px]">4.1</h4>
           <p className="text-green-700 ext-[10px]">★★★★★</p>
-          <p className="ext-[10px]">3.07L reviews</p>
+          <p className="text-[10px]">3.07L reviews</p>
         </div>
         <div className="w-[70%] flex flex-col text-sm">
           <div className="w-full flex justify-between items-center">
