@@ -97,7 +97,7 @@ function RatingAndReviews() {
         {reviews.map((review, index) => (
           <div>
             <div className="flex">
-              <span>{review.username}</span>
+              <span className="font-medium">{review.username}</span>
             </div>
             <div className="pl-4">
               <span className="text-green-700">{renderStars(review.rating)}</span>
