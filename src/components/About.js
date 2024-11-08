@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div className="max-w-2xl mx-auto text-left p-4">
-      <h2 className="text-xl font-medium mb-2">About this app</h2>
-      <p className="text-gray-600 ml-2">
+      <h2 className="text-[15px] font-medium mb-2">About this app</h2>
+      <p className="text-gray-600 ml-2 text-[12px]">
         About this app Online video and voice chat application. New Girl is an
         online video and voice chat application that allows you to make friends
         from all over the world. Through video calls, you can communicate
