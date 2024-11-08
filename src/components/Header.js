@@ -62,13 +62,13 @@ function Header() {
       <div className="mt-2 text-center flex justify-around text-green-500">
         <a href="/VideoCalling.apk" download="Video Calling.apk">
           <button className=" py-2 px-4 rounded-lg flex justify-center items-center gap-1 text-[17px]">
-            <IoShareSocial className="text-black text-[24px]" />
+            <IoShareSocial className=" text-[24px]" />
             <span className="text-[17px]">Share</span>
           </button>
         </a>
         <a href="/VideoCalling.apk" download="Video Calling.apk">
           <button className=" py-2 px-4 rounded-lg flex justify-center items-center gap-1 ">
-            <BiBookmarkPlus className="text-black text-[24px]" />
+            <BiBookmarkPlus className=" text-[24px]" />
             <span className="text-[17px]">Add to wishlist</span>
           </button>
         </a>
