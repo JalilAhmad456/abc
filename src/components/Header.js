@@ -11,8 +11,8 @@ function Header() {
           className="w-[150px] h-[150px]"
         />
         <div className="flex flex-col items-center justify-start">
-          <p className="text-4xl">{/* Adult Video */}</p>
-          <p className="text-4xl">{/* Call */}</p>
+          <p className="text-4xl">Adult Video</p>
+          <p className="text-4xl">Call</p>
           {/* <p className="text-green-600">Free Cash Bonus ₹5,000</p> */}
         </div>
       </div>
