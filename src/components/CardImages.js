@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import image1 from '../images/000001.jpeg';
-import image2 from '../images/000002.jpeg';
-import image3 from '../images/000003.jpeg';
-import image4 from '../images/000004.jpeg';
+import React, { useState, useEffect } from "react";
+import image1 from "../images/000001.jpeg";
+import image2 from "../images/000002.jpeg";
+import image3 from "../images/000003.jpeg";
+import image4 from "../images/000004.jpeg";
 
-const images = [image1, image2];
+const images = [image1, image2, image3, image4];
 
 function CardImages() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -18,8 +18,12 @@ function CardImages() {
   }, []);
 
   return (
-    <div className="p-4 max-w-xl mx-auto flex">
-      <img src={images[currentImageIndex]} alt={`Card Image ${currentImageIndex + 1}`} className="w-full mb-4" />
+    <div className="h-[350px] p-4 max-w-xl mx-auto flex">
+      <img
+        src={images[currentImageIndex]}
+        alt={`Card Image ${currentImageIndex + 1}`}
+        className="w-full mb-4"
+      />
     </div>
   );
 }
