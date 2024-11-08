@@ -18,14 +18,15 @@ function CardImages() {
   }, []);
 
   return (
-    <div className="h-[350px] p-4 max-w-xl mx-auto flex">
+    <div className="h-[320px] p-4 max-w-xl mx-auto flex items-center justify-center overflow-hidden">
       <img
         src={images[currentImageIndex]}
         alt={`Card Image ${currentImageIndex + 1}`}
-        className="w-full mb-4"
+        className="max-h-full max-w-full object-contain"
       />
     </div>
   );
 }
 
 export default CardImages;
+
